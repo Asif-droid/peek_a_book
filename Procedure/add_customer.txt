@@ -30,7 +30,7 @@ BEGIN
 		IF j=0 THEN
 				INSERT INTO ADDRESS_DETAIL(street, thana, postal_code, DISTRICT_ID) VALUES(astreet, athana, apostal_code, dist_id);
 		END IF;
-		SELECT ADDRESS_ID INTO a_id FROM ADDRESS_DETAIL WHERE UPPER(street)= UPPER(astreet);
+		SELECT ADDRESS_ID INTO a_id FROM ADDRESS_DETAIL WHERE UPPER(street)= UPPER(astreet) AND UPPER(THANA)= UPPER(athana);
 		INSERT INTO CUSTOMER(first_name, last_name, email, address_id, USER_NAME, PASSWORD) VALUES(fname, lname, cemail, a_id, c_user, c_pass);	
 EXCEPTION
 		WHEN NO_DATA_FOUND THEN
