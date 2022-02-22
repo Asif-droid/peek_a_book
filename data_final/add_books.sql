@@ -25,7 +25,7 @@ BEGIN
 		add_book(10002, 'Angels & Demons', 'fiction, Novel', 'Dan Brown','Sheba Prokashoni', 'English', NULL, '1114148885', 350, 5, '2nd edition', 550);
 		add_book(10003, 'Angels & Demons', 'fiction, Novel', 'Dan Brown','Sheba Prokashoni', 'English', NULL, '1114148885', 350, 5, '2nd edition', 550);
 		add_book(10004, 'Angels & Demons', 'fiction, Novel', 'Dan Brown','Sheba Prokashoni', 'English', NULL, '1114148885', 350, 5, '2nd edition', 550);
-		add_book(10010, 'Angels & Demons', 'fiction, Novel', 'Dan Brown','Sheba Prokashoni', 'English', NULL, '1114148885', 350, 5, '2nd edition', 550);*/
+		add_book(10010, 'Angels & Demons', 'fiction, Novel', 'Dan Brown','Sheba Prokashoni', 'English', NULL, '1114148885', 350, 5, '2nd edition', 550);
 		add_book(10010, 'Kopotronic Shukh Dukkho', 'Science fiction', 'Md. Jafar Iqbal','Magnum Opas', 'Bangla', NULL, '1114828885', 150, 5, '4th edition', 250);
 		add_book(10001, 'Kopotronic Shukh Dukkho', 'Science fiction', 'Md. Jafar Iqbal','Magnum Opas', 'Bangla', NULL, '1114828885', 150, 5, '4th edition', 250);
 		add_book(10000, 'Kopotronic Shukh Dukkho', 'Science fiction', 'Md. Jafar Iqbal','Magnum Opas', 'Bangla', NULL, '1114828885', 150, 5, '4th edition', 250);
